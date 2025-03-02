@@ -1,55 +1,75 @@
-# Karen AI - Customer Service Automation
+# Karen AI - Your Personal Customer Service Advocate 🤖
 
-An AI-powered customer service automation platform that handles customer interactions across different platforms using LLMs and browser automation.
+Karen is an autonomous AI agent that fights customer service battles on your behalf. Unlike traditional chatbots that just answer questions, Karen actively automates customer service interactions through browser automation and intelligent conversation management.
 
-## Project Structure
+## 🌟 Key Features
 
-This repository contains two main components:
+### Autonomous Browser Navigation
+- Intelligently navigates customer service portals
+- Handles form submissions and interactions
+- Takes screenshots for verification and progress tracking
+- Supports multiple service providers including Amazon, PayPal, Spotify, and more
 
-### 1. Mobile App (`karen-ai-mobile/`)
-- React Native / Expo mobile application
-- Features:
-  - Chat interface for customer interactions
-  - Document upload capabilities
-  - Real-time status updates
-  - Settings management
+### Intelligent Conversation Management
+- Maintains context-aware conversations
+- Extracts key information without repetitive questioning
+- Automatically determines the best resolution approach
+- Provides real-time status updates with visual confirmation
 
-### 2. Backend Server (`karen-ai-backend/`)
-- Node.js/Express backend
-- Features:
-  - RESTful API endpoints
-  - Socket.IO for real-time communication
-  - MongoDB Atlas integration
-  - LLM integration (OpenAI/Anthropic)
+### Advanced Automation Capabilities
+- Automated ticket creation and submission
+- Live chat integration
+- Email support automation
+- Knowledge base searching and information extraction
 
-## Getting Started
+## 🚀 Technical Overview
 
-### Mobile App Setup
-```bash
-cd karen-ai-mobile
-npm install
-npx expo start
-```
+Karen is built on a modern tech stack leveraging:
+- Playwright for headless browser automation
+- Socket.IO for real-time communication
+- AWS infrastructure for scalability
+- Anthropic/OpenAI for intelligent decision making
 
-### Backend Setup
-```bash
-cd karen-ai-backend
-npm install
-# Create .env file with required environment variables
-npm run dev
-```
+### Browser Automation Service
+The core automation engine uses Playwright to:
+- Handle complex web interactions
+- Manage multiple concurrent sessions
+- Capture visual progress through screenshots
+- Execute AI-generated automation plans
 
-See individual README files in each directory for detailed setup instructions.
 
-## Development Status
+## 🛠 Infrastructure
 
-Current MVP development phase includes:
-- Basic chat interface
-- Document upload functionality
-- Real-time status updates
-- MongoDB integration
-- LLM integration
+Runs on AWS EC2 with:
+- Docker containerization
+- Nginx reverse proxy
+- Automated SSL certificate management
+- Security group configurations for safe automation
 
-## License
+## 🔒 Security
 
-MIT 
+- Secure session management
+- Automated cleanup of sensitive data
+- Configurable access controls
+- Screenshot encryption and secure storage
+
+## 🌐 Supported Services
+
+Currently supports automation for:
+- Amazon customer service
+- PayPal dispute resolution
+- Spotify subscription management
+- Uber/UberEats support
+- Airbnb customer service
+- And more being added regularly
+
+## 🚧 Development Status
+
+Karen is currently in active development. The core automation engine is functional, and new service providers are being added regularly. Contributions and feedback are welcome!
+
+## 📝 License
+
+MIT License
+---
+
+*Let Karen fight your customer service battles while you focus on more important things!* 💪
