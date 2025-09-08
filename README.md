@@ -1,6 +1,12 @@
 # Karen AI - Your Personal Customer Service Advocate 🤖
 
-Karen is an autonomous AI agent that fights customer service battles on your behalf. Unlike traditional chatbots that just answer questions, Karen actively automates customer service interactions through browser automation and intelligent conversation management.
+Returns should be effortless.  
+So we built Karen.ai.    
+Karen is an autonomous AI agent that fights customer service battles on your behalf. Unlike traditional chatbots that just answer questions, Karen actively automates customer service interactions through browser automation and intelligent conversation management.  
+[Watch the video trailer here!](https://drive.google.com/file/d/1fqCW4iHjLR6Kz5Z7CkfDabstnYrUiyAV/view?usp=sharing)    
+
+
+<img width="862" height="657" alt="image" src="https://github.com/user-attachments/assets/f914aeaa-80bc-40b6-8409-8d506ee8aacb" />
 
 ## 🌟 Key Features
 
@@ -15,6 +21,7 @@ Karen is an autonomous AI agent that fights customer service battles on your beh
 - Extracts key information without repetitive questioning
 - Automatically determines the best resolution approach
 - Provides real-time status updates with visual confirmation
+
 
 ### Advanced Automation Capabilities
 - Automated ticket creation and submission
